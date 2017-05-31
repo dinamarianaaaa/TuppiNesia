@@ -1,0 +1,29 @@
+echo "Kode Barang : ".$c['kode_barang']."<br />";
+			echo "Nama Barang : ".$c['nama_barang']."<br />";
+			echo "Satuan : ".$c['satuan']."<br />";
+			echo "Jumlah : ".$c['jumlah']."<br />";
+			echo "Harga : ".$c['harga']."<br />";
+			echo "Kategori : ".$c['kategori']."<br />";
+
+
+public function insert() {
+		echo "Ini Function Insert"
+	}
+
+	public function update() {
+		echo "Ini Function Update"
+	}
+
+	public function delete() {
+		echo "Ini Function Delete"
+	}
+
+
+foreach ($data as $c) {
+			echo "Kode Barang : ".$c['kode_barang']."<br />";
+			echo "Nama Barang : ".$c['nama_barang']."<br />";
+			echo "Satuan : ".$c['satuan']."<br />";
+			echo "Jumlah : ".$c['jumlah']."<br />";
+			echo "Harga : ".$c['harga']."<br />";
+			echo "Kategori : ".$c['kategori']."<br />";
+		}
